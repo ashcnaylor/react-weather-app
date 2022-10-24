@@ -1,9 +1,15 @@
-import "./App.css";
+import React from "react";
+import "./styles.css";
+import Title from "./Title";
+import Search from "./Search";
+import CurrentWeather from "./CurrentWeather";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Weather App</header>
+      <Title />
+      <Search />
+      <CurrentWeather />
       <p>
         <a href="https://github.com/ashcnaylor/react-weather-app">
           This code is open source{" "}
