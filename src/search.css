@@ -1,30 +1,30 @@
 .search {
-  background-color: #384a51;
+  background-color: #fbf3d8;
   border: 1px solid black;
   border-radius: 4px;
   color: #384a51;
-  margin: 5px 60px 10px;
-  padding: 15px;
+  margin: 10px auto;
+  max-width: 80%;
+  padding: 10px;
 }
 
 .search-button {
-  background-color: #fdc57b;
+  background-color: white;
   border-radius: 4px;
-  color: #384a51;
+  color: black;
   font-size: 17px;
-  position: relative;
-  left: 30px;
-  top: 3px;
+  margin: 10px auto;
+  max-width: 30%;
   transition: all 0.3 ease 0;
 }
 
 .search-button:hover {
-  background-color: #fbf2d5;
+  background-color: lightgray;
   cursor: pointer;
 }
 
 .search-input {
   font-size: 19px;
-  position: relative;
-  left: 10px;
+  margin: 10px auto;
+  max-width: 60%;
 }

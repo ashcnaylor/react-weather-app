@@ -1,5 +1,7 @@
 .App {
-  background-color: whitesmoke;
+  background-image: url("./img/default-weather.jpg");
+  background-position: center;
+  background-size: cover;
   border: 1px solid black;
   border-radius: 6px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
@@ -9,4 +11,14 @@
   margin: 30px auto;
   max-width: 600px;
   opacity: 0.93;
+}
+
+.bg-img {
+  min-width: 1024px;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }

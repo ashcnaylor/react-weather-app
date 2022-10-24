@@ -9,42 +9,34 @@
 
 .city {
   font-size: 30px;
-  position: relative;
-  left: 45px;
-  top: -5px;
+  margin: 5px;
+  text-align: center;
 }
 
 .date-and-time {
   border: 1px solid black;
+  display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
+  margin: 10px auto;
   max-width: 160px;
   padding: 4px;
-  position: relative;
-  left: 26px;
-  top: -10px;
   text-align: center;
 }
 
 .temp {
   font-size: 50px;
-  margin: 0;
-  position: relative;
-  left: 50px;
-  top: -15px;
+  text-align: center;
 }
 
 .icon {
   font-size: 90px;
   margin: 0;
-  position: relative;
-  left: 260px;
-  top: -200px;
+  text-align: center;
 }
 
 .conditions {
-  margin: 0;
-  position: relative;
-  left: 220px;
-  top: -190px;
+  display: block;
+  font-size: 14px;
+  margin: 0 auto;
 }

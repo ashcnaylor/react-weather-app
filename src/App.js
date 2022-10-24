@@ -6,10 +6,12 @@ import CurrentWeather from "./CurrentWeather";
 
 function App() {
   return (
-    <div className="App">
-      <Title />
-      <Search />
-      <CurrentWeather />
+    <div>
+      <div className="App">
+        <Title />
+        <Search />
+        <CurrentWeather />
+      </div>
       <p>
         <a href="https://github.com/ashcnaylor/react-weather-app">
           This code is open source{" "}
