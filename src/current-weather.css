@@ -40,3 +40,46 @@
   font-size: 14px;
   margin: 0 auto;
 }
+
+.title {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin: 10px auto;
+  max-width: 50%;
+  text-align: center;
+}
+
+.search {
+  background-color: #fbf3d8;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: #384a51;
+  margin: 10px auto;
+  max-width: 80%;
+  padding: 10px;
+}
+
+.search-button {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  font-size: 17px;
+  margin: 10px auto;
+  max-width: 30%;
+  transition: all 0.3 ease 0;
+}
+
+.search-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.search-input {
+  font-size: 19px;
+  margin: 10px auto;
+  max-width: 60%;
+}
