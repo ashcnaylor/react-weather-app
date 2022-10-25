@@ -9,18 +9,8 @@
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: block;
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 700px;
   opacity: 0.93;
-}
-
-.bg-img {
-  min-width: 1024px;
-  min-height: 100%;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 .Source {

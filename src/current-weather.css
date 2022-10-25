@@ -9,7 +9,7 @@
 
 .city {
   font-size: 30px;
-  margin: 5px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -18,7 +18,8 @@
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 20px;
-  margin: 10px auto;
+  margin: 15px auto;
+  margin-bottom: 5px;
   max-width: 160px;
   padding: 4px;
   text-align: center;
@@ -26,19 +27,20 @@
 
 .temp {
   font-size: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .icon {
-  font-size: 90px;
-  margin: 0;
+  font-size: 60px;
+  margin-top: 25px;
   text-align: center;
 }
 
 .conditions {
   display: block;
-  font-size: 14px;
-  margin: 0 auto;
+  font-size: 12px;
+  margin: 5px auto;
 }
 
 .title {
@@ -47,8 +49,8 @@
   border-radius: 4px;
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
-  margin: 10px auto;
+  font-size: 25px;
+  margin: 15px auto;
   max-width: 50%;
   text-align: center;
 }

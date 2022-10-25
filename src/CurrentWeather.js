@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./current-weather.css";
 import axios from "axios";
+import WeatherInfo from "./WeatherInfo";
 
 export default function CurrentWeather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -55,21 +56,7 @@ export default function CurrentWeather(props) {
             </div>
           </form>
         </div>
-        <div className="current row">
-          <div className="col">
-            <h2 className="city">{weatherData.city.value}</h2>
-            <p className="date-and-time">{weatherData.date.value}</p>
-            <p className="temp">{weatherData.temperature.value}</p>
-          </div>
-          <div className="col">
-            <p className="icon">{weatherData.icon.value}</p>
-            <ul className="conditions">
-              <li>Description: {weatherData.description.value}</li>
-              <li>Humidity: {weatherData.humidity.value}</li>
-              <li>Wind: {weatherData.wind.value}</li>
-            </ul>
-          </div>
-        </div>
+        <WeatherInfo data={weatherData} />
       </div>
     );
   } else {
