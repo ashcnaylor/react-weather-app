@@ -85,3 +85,9 @@
   margin: 10px auto;
   max-width: 60%;
 }
+
+.unit {
+  position: relative;
+  bottom: 23px;
+  left: 5px;
+}
