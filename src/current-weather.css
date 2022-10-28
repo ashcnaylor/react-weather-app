@@ -33,14 +33,18 @@
 
 .current-icon {
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.current-temp {
+  text-align: center;
 }
 
 .conditions {
-  display: block;
   font-size: 12px;
-  margin: 5px auto;
+  margin: 15px;
+  text-align: center;
 }
 
 .title {
@@ -50,7 +54,7 @@
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 25px;
-  margin: 15px auto;
+  margin: 25px auto;
   max-width: 50%;
   text-align: center;
 }

@@ -20,19 +20,19 @@ export default function WeatherInfo(props) {
           <div className="current-icon">
             <WeatherIcon code={props.data.icon} size={58} />
           </div>
-          <ul className="conditions">
-            <li>
+          <div className="conditions">
+            <div>
               <strong>{props.data.description}</strong>
-            </li>
-            <li>
+            </div>
+            <div>
               Humidity:
               <strong>{props.data.humidity}%</strong>
-            </li>
-            <li>
+            </div>
+            <div>
               Wind:
               <strong>{props.data.wind}mph</strong>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
