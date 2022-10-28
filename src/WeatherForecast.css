@@ -1,0 +1,16 @@
+.forecast {
+  background-color: #fbf3d8;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.forecast-day {
+  margin: 0 auto;
+}
+
+.forecast-temp-min {
+  color: gray;
+}
